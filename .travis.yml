@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - lts/*
 cache: npm
+install:
+  - apt-get install -y tree
+  - npm install
 script:
   - npm run test
   - npm run build
