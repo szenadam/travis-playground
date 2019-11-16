@@ -1,6 +1,8 @@
 language: node_js
 node_js:
-  - lts/*
+  - 12.13.0
+  - 8.16.2
+  - 13.1.0
 cache: npm
 branches:
   only:
