@@ -3,7 +3,7 @@ node_js:
   - lts/*
 cache: npm
 install:
-  - apt-get install -y tree
+  - sudo apt-get install -y tree
   - npm install
 script:
   - npm run test
