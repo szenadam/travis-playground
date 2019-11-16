@@ -10,4 +10,5 @@ install:
 script:
   - npm run test
   - npm run build
-  - tree
+  - tree src
+  - git log
