@@ -2,9 +2,12 @@ language: node_js
 node_js:
   - lts/*
 cache: npm
+before_install:
+  - sudo apt-get update
 install:
   - sudo apt-get install -y tree
   - npm install
 script:
   - npm run test
   - npm run build
+  - tree
